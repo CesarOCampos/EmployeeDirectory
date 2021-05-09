@@ -68,9 +68,8 @@ const EmployeeInfo = () => {
   }
 
   return (
-
-    <div className="container mt-5 ">
-      <div className="card ">
+    <div className="container mt-5">
+      <div className="card">
         <form className="form mt-5 ">
           <input
             className="form-control w-25 mx-auto shadow-lg"
@@ -89,18 +88,18 @@ const EmployeeInfo = () => {
               <th scope="col">
                 <img
                   src={UpArrowImage}
-                  style={{ height: 'auto', width: '20px', margin: '5px' }}
+                  style={{ height: "auto", width: "20px", margin: "5px" }}
                   onClick={handelUpArrowSort}
                   alt="UpArrow"
                 />
                 <img
                   src={DownArrowImage}
-                  style={{ height: '22px', width: 'auto', margin: '5px' }}
+                  style={{ height: "22px", width: "auto", margin: "5px" }}
                   onClick={handelDownArrowSort}
                   alt="DownArrow"
                 />
-              First Name
-            </th>
+                First Name
+              </th>
               <th scope="col">Last Name</th>
               <th scope="col">Email Address</th>
               <th scope="col">Phone Number</th>
@@ -110,9 +109,9 @@ const EmployeeInfo = () => {
           <tbody class="ml-5">
             {names.map((item) => (
               <tr>
-                <th scope="row " >
-                  {' '}
-                  <img src={item.picture.medium} alt="" />{' '}
+                <th scope="row ">
+                  {" "}
+                  <img src={item.picture.medium} alt="" />{" "}
                 </th>
                 <td>{item.name.first}</td>
                 <td>{item.name.last}</td>
