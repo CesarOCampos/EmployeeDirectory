@@ -36,7 +36,7 @@ The user should be able to:
 
 ## Installation Instructions
 
-    npm i
+    N/A
 
 ## Test Instructions
 
@@ -52,10 +52,11 @@ The user should be able to:
 
 ## Mock-Up
 
-
+![Screenshot](https://prnt.sc/12rlxzy)
 
 ## Live Link
 
+https://cesarocampos.github.io/EmployeeDirectory/
 https://shrouded-citadel-65485.herokuapp.com/
 
 ## License 
