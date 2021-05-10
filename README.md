@@ -52,7 +52,7 @@ The user should be able to:
 
 ## Mock-Up
 
-![Screenshot](https://prnt.sc/12rlxzy)
+![image](https://user-images.githubusercontent.com/40922162/117688784-ba07c880-b17e-11eb-8e2e-4540c3adb207.png)
 
 ## Live Link
 
